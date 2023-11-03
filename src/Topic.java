@@ -14,6 +14,7 @@ public class Topic implements Subject {
     public void register(Observer obj) {
         if(!observers.contains(obj)) {
             observers.add(obj);
+            obj.setTopic(this);
         }
     }
 
