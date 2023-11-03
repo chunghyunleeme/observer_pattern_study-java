@@ -3,4 +3,4 @@ public interface Subject {
     public void unregister(Observer obj);
     public void notifyObservers();
     public Object getUpdate(Observer obj);
-}
+}토
